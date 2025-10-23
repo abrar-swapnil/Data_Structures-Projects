@@ -17,6 +17,8 @@ int main() {
 
     if(!found)
         printf("Roll number %d not found.\n", search);
+    
+    printf("\n---Thank You---\n");
 
     return 0;
 }
