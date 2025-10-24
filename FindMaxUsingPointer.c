@@ -15,7 +15,7 @@ int main()
 
     max = *ptr;
     printf("array: ");
-    for (int i = 1; i < 5; i++)
+    for (int i = 1; i < 5; i++)     
     {
         if(*(ptr+i) > max) 
         {
@@ -25,6 +25,7 @@ int main()
     }
     
         printf("Maximum number is : %d\n",max);
+        printf("---Thank You---\n");
    
 
     return 0;
